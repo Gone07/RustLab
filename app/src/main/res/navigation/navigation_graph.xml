@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.rustlab.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_weaponsFragment"
+            app:destination="@id/weaponsFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_clothingFragment"
+            app:destination="@id/clothingFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_toolsFragment"
+            app:destination="@id/toolsFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_ammunitionFragment"
+            app:destination="@id/ammunitionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/weaponsFragment"
+        android:name="com.example.rustlab.WeaponsFragment"
+        android:label="fragment_weapons"
+        tools:layout="@layout/fragment_weapons" >
+        <action
+            android:id="@+id/action_weaponsFragment_to_asaultRifleFragment"
+            app:destination="@id/asaultRifleFragment" />
+        <action
+            android:id="@+id/action_weaponsFragment_to_boltActionRifleFragment"
+            app:destination="@id/boltActionRifleFragment" />
+        <action
+            android:id="@+id/action_weaponsFragment_to_compoundBowFragment"
+            app:destination="@id/compoundBowFragment" />
+        <action
+            android:id="@+id/action_weaponsFragment_to_crossbowFragment"
+            app:destination="@id/crossbowFragment" />
+        <action
+            android:id="@+id/action_weaponsFragment_to_customSMGFragment"
+            app:destination="@id/customSMGFragment" />
+        <action
+            android:id="@+id/action_weaponsFragment_to_doubleBarrelShotgunFragment"
+            app:destination="@id/doubleBarrelShotgunFragment" />
+        <action
+            android:id="@+id/action_weaponsFragment_to_eokaPistoliconFragment"
+            app:destination="@id/eokaPistoliconFragment" />
+        <action
+            android:id="@+id/action_weaponsFragment_to_flameThrowerFragment"
+            app:destination="@id/flameThrowerFragment" />
+        <action
+            android:id="@+id/action_weaponsFragment_to_huntingBowFragment"
+            app:destination="@id/huntingBowFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/clothingFragment"
+        android:name="com.example.rustlab.ClothingFragment"
+        android:label="fragment_clothing"
+        tools:layout="@layout/fragment_clothing" >
+        <action
+            android:id="@+id/action_clothingFragment_to_bootsFragment"
+            app:destination="@id/bootsFragment" />
+        <action
+            android:id="@+id/action_clothingFragment_to_coffeeCanHelmetFragment"
+            app:destination="@id/coffeeCanHelmetFragment" />
+        <action
+            android:id="@+id/action_clothingFragment_to_hoodieFragment"
+            app:destination="@id/hoodieFragment" />
+        <action
+            android:id="@+id/action_clothingFragment_to_leatherGlovesFragment"
+            app:destination="@id/leatherGlovesFragment" />
+        <action
+            android:id="@+id/action_clothingFragment_to_metalChestPlateFragment"
+            app:destination="@id/metalChestPlateFragment" />
+        <action
+            android:id="@+id/action_clothingFragment_to_metalFacemaskFragment"
+            app:destination="@id/metalFacemaskFragment" />
+        <action
+            android:id="@+id/action_clothingFragment_to_roadSignJacketFragment"
+            app:destination="@id/roadSignJacketFragment" />
+        <action
+            android:id="@+id/action_clothingFragment_to_roadSignKiltFragment"
+            app:destination="@id/roadSignKiltFragment" />
+        <action
+            android:id="@+id/action_clothingFragment_to_snowJacketRedFragment"
+            app:destination="@id/snowJacketRedFragment" />
+        <action
+            android:id="@+id/action_clothingFragment_to_woodArmorHelmetFragment"
+            app:destination="@id/woodArmorHelmetFragment" />
+        <action
+            android:id="@+id/action_clothingFragment_to_woodArmorPantsFragment"
+            app:destination="@id/woodArmorPantsFragment" />
+        <action
+            android:id="@+id/action_clothingFragment_to_woodChestplateFragment"
+            app:destination="@id/woodChestplateFragment" />
+        <action
+            android:id="@+id/action_clothingFragment_to_hazmatFragment"
+            app:destination="@id/hazmatFragment" />
+        <action
+            android:id="@+id/action_clothingFragment_to_pantsFragment"
+            app:destination="@id/pantsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/toolsFragment"
+        android:name="com.example.rustlab.ToolsFragment"
+        android:label="fragment_tools"
+        tools:layout="@layout/fragment_tools" >
+        <action
+            android:id="@+id/action_toolsFragment_to_chainsawFragment"
+            app:destination="@id/chainsawFragment" />
+        <action
+            android:id="@+id/action_toolsFragment_to_hatchetFragment"
+            app:destination="@id/hatchetFragment" />
+        <action
+            android:id="@+id/action_toolsFragment_to_pickAxeFragment"
+            app:destination="@id/pickAxeFragment" />
+        <action
+            android:id="@+id/action_toolsFragment_to_rockFragment"
+            app:destination="@id/rockFragment" />
+        <action
+            android:id="@+id/action_toolsFragment_to_salvagedAxeFragment"
+            app:destination="@id/salvagedAxeFragment" />
+        <action
+            android:id="@+id/action_toolsFragment_to_salvagedHammerFragment"
+            app:destination="@id/salvagedHammerFragment" />
+        <action
+            android:id="@+id/action_toolsFragment_to_salvagedIcepickFragment"
+            app:destination="@id/salvagedIcepickFragment" />
+        <action
+            android:id="@+id/action_toolsFragment_to_stoneHatchetFragment"
+            app:destination="@id/stoneHatchetFragment" />
+        <action
+            android:id="@+id/action_toolsFragment_to_stonePickAxeFragment"
+            app:destination="@id/stonePickAxeFragment" />
+        <action
+            android:id="@+id/action_toolsFragment_to_stoneHatchetFragment2"
+            app:destination="@id/stoneHatchetFragment" />
+        <action
+            android:id="@+id/action_toolsFragment_to_torchFragment"
+            app:destination="@id/torchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ammunitionFragment"
+        android:name="com.example.rustlab.AmmunitionFragment"
+        android:label="fragment_ammunition"
+        tools:layout="@layout/fragment_ammunition" >
+        <action
+            android:id="@+id/action_ammunitionFragment_to_c4Fragment"
+            app:destination="@id/c4Fragment" />
+        <action
+            android:id="@+id/action_ammunitionFragment_to_explosiveAmmoFragment"
+            app:destination="@id/explosiveAmmoFragment" />
+        <action
+            android:id="@+id/action_ammunitionFragment_to_rockerFragment"
+            app:destination="@id/rockerFragment" />
+        <action
+            android:id="@+id/action_ammunitionFragment_to_satchelFragment"
+            app:destination="@id/satchelFragment" />
+        <action
+            android:id="@+id/action_ammunitionFragment_to_HQFragment"
+            app:destination="@id/HQFragment" />
+        <action
+            android:id="@+id/action_ammunitionFragment_to_HQDoorFragment"
+            app:destination="@id/HQDoorFragment" />
+        <action
+            android:id="@+id/action_ammunitionFragment_to_metalDoorFragment"
+            app:destination="@id/metalDoorFragment" />
+        <action
+            android:id="@+id/action_ammunitionFragment_to_metalFragment"
+            app:destination="@id/metalFragment" />
+        <action
+            android:id="@+id/action_ammunitionFragment_to_woodFragment"
+            app:destination="@id/woodFragment" />
+        <action
+            android:id="@+id/action_ammunitionFragment_to_stoneFragment"
+            app:destination="@id/stoneFragment" />
+        <action
+            android:id="@+id/action_ammunitionFragment_to_woodDoorFragment"
+            app:destination="@id/woodDoorFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/c4Fragment"
+        android:name="com.example.rustlab.C4Fragment"
+        android:label="fragment_c4"
+        tools:layout="@layout/fragment_c4" />
+    <fragment
+        android:id="@+id/explosiveAmmoFragment"
+        android:name="com.example.rustlab.ExplosiveAmmoFragment"
+        android:label="fragment_explosive_ammo"
+        tools:layout="@layout/fragment_explosive_ammo" />
+    <fragment
+        android:id="@+id/rockerFragment"
+        android:name="com.example.rustlab.RockerFragment"
+        android:label="fragment_rocker"
+        tools:layout="@layout/fragment_rocket" />
+    <fragment
+        android:id="@+id/satchelFragment"
+        android:name="com.example.rustlab.SatchelFragment"
+        android:label="fragment_satchel"
+        tools:layout="@layout/fragment_satchel" />
+    <fragment
+        android:id="@+id/asaultRifleFragment"
+        android:name="com.example.rustlab.AsaultRifleFragment"
+        android:label="fragment_asault_rifle"
+        tools:layout="@layout/fragment_asault_rifle" />
+    <fragment
+        android:id="@+id/boltActionRifleFragment"
+        android:name="com.example.rustlab.BoltActionRifleFragment"
+        android:label="fragment_bolt_action_rifle"
+        tools:layout="@layout/fragment_bolt_action_rifle" />
+    <fragment
+        android:id="@+id/compoundBowFragment"
+        android:name="com.example.rustlab.CompoundBowFragment"
+        android:label="fragment_compound_bow"
+        tools:layout="@layout/fragment_compound_bow" />
+    <fragment
+        android:id="@+id/crossbowFragment"
+        android:name="com.example.rustlab.CrossbowFragment"
+        android:label="fragment_crossbow"
+        tools:layout="@layout/fragment_crossbow" />
+    <fragment
+        android:id="@+id/customSMGFragment"
+        android:name="com.example.rustlab.CustomSMGFragment"
+        android:label="fragment_custom_s_m_g"
+        tools:layout="@layout/fragment_custom_s_m_g" />
+    <fragment
+        android:id="@+id/doubleBarrelShotgunFragment"
+        android:name="com.example.rustlab.DoubleBarrelShotgunFragment"
+        android:label="fragment_double_barrel_shotgun"
+        tools:layout="@layout/fragment_double_barrel_shotgun" />
+    <fragment
+        android:id="@+id/eokaPistoliconFragment"
+        android:name="com.example.rustlab.EokaPistoliconFragment"
+        android:label="fragment_eoka_pistolicon"
+        tools:layout="@layout/fragment_eoka_pistolicon" />
+    <fragment
+        android:id="@+id/flameThrowerFragment"
+        android:name="com.example.rustlab.FlameThrowerFragment"
+        android:label="fragment_flame_thrower"
+        tools:layout="@layout/fragment_flame_thrower" />
+    <fragment
+        android:id="@+id/huntingBowFragment"
+        android:name="com.example.rustlab.HuntingBowFragment"
+        android:label="fragment_hunting_bow"
+        tools:layout="@layout/fragment_hunting_bow" />
+    <fragment
+        android:id="@+id/bootsFragment"
+        android:name="com.example.rustlab.BootsFragment"
+        android:label="fragment_boots"
+        tools:layout="@layout/fragment_boots" />
+    <fragment
+        android:id="@+id/coffeeCanHelmetFragment"
+        android:name="com.example.rustlab.CoffeeCanHelmetFragment"
+        android:label="fragment_coffee_can_helmet"
+        tools:layout="@layout/fragment_coffee_can_helmet" />
+    <fragment
+        android:id="@+id/hoodieFragment"
+        android:name="com.example.rustlab.HoodieFragment"
+        android:label="fragment_hoodie"
+        tools:layout="@layout/fragment_hoodie" />
+    <fragment
+        android:id="@+id/leatherGlovesFragment"
+        android:name="com.example.rustlab.LeatherGlovesFragment"
+        android:label="fragment_leather_gloves"
+        tools:layout="@layout/fragment_leather_gloves" />
+    <fragment
+        android:id="@+id/metalChestPlateFragment"
+        android:name="com.example.rustlab.MetalChestPlateFragment"
+        android:label="fragment_metal_chest_plate"
+        tools:layout="@layout/fragment_metal_chest_plate" />
+    <fragment
+        android:id="@+id/metalFacemaskFragment"
+        android:name="com.example.rustlab.MetalFacemaskFragment"
+        android:label="fragment_metal_facemask"
+        tools:layout="@layout/fragment_metal_facemask" />
+    <fragment
+        android:id="@+id/roadSignJacketFragment"
+        android:name="com.example.rustlab.RoadSignJacketFragment"
+        android:label="fragment_road_sign_jacket"
+        tools:layout="@layout/fragment_road_sign_jacket" />
+    <fragment
+        android:id="@+id/roadSignKiltFragment"
+        android:name="com.example.rustlab.RoadSignKiltFragment"
+        android:label="fragment_road_sign_kilt"
+        tools:layout="@layout/fragment_road_sign_kilt" />
+    <fragment
+        android:id="@+id/snowJacketRedFragment"
+        android:name="com.example.rustlab.SnowJacketRedFragment"
+        android:label="fragment_snow_jacket_red"
+        tools:layout="@layout/fragment_snow_jacket_red" />
+    <fragment
+        android:id="@+id/woodArmorHelmetFragment"
+        android:name="com.example.rustlab.WoodArmorHelmetFragment"
+        android:label="fragment_wood_armor_helmet"
+        tools:layout="@layout/fragment_wood_armor_helmet" />
+    <fragment
+        android:id="@+id/woodArmorPantsFragment"
+        android:name="com.example.rustlab.WoodArmorPantsFragment"
+        android:label="fragment_wood_armor_pants"
+        tools:layout="@layout/fragment_wood_armor_pants" />
+    <fragment
+        android:id="@+id/woodChestplateFragment"
+        android:name="com.example.rustlab.WoodChestplateFragment"
+        android:label="fragment_wood_chestplate"
+        tools:layout="@layout/fragment_wood_chestplate" />
+    <fragment
+        android:id="@+id/hazmatFragment"
+        android:name="com.example.rustlab.HazmatFragment"
+        android:label="fragment_hazmat"
+        tools:layout="@layout/fragment_hazmat" />
+    <fragment
+        android:id="@+id/chainsawFragment"
+        android:name="com.example.rustlab.ChainsawFragment"
+        android:label="fragment_chainsaw"
+        tools:layout="@layout/fragment_chainsaw" />
+    <fragment
+        android:id="@+id/hatchetFragment"
+        android:name="com.example.rustlab.HatchetFragment"
+        android:label="fragment_hatchet"
+        tools:layout="@layout/fragment_hatchet" />
+    <fragment
+        android:id="@+id/pickAxeFragment"
+        android:name="com.example.rustlab.PickAxeFragment"
+        android:label="fragment_pick_axe"
+        tools:layout="@layout/fragment_pick_axe" />
+    <fragment
+        android:id="@+id/rockFragment"
+        android:name="com.example.rustlab.RockFragment"
+        android:label="fragment_rock"
+        tools:layout="@layout/fragment_rock" />
+    <fragment
+        android:id="@+id/salvagedAxeFragment"
+        android:name="com.example.rustlab.SalvagedAxeFragment"
+        android:label="fragment_salvaged_axe"
+        tools:layout="@layout/fragment_salvaged_axe" />
+    <fragment
+        android:id="@+id/salvagedHammerFragment"
+        android:name="com.example.rustlab.SalvagedHammerFragment"
+        android:label="fragment_salvaged_hammer"
+        tools:layout="@layout/fragment_salvaged_hammer" />
+    <fragment
+        android:id="@+id/salvagedIcepickFragment"
+        android:name="com.example.rustlab.SalvagedIcepickFragment"
+        android:label="fragment_salvaged_icepick"
+        tools:layout="@layout/fragment_salvaged_icepick" />
+    <fragment
+        android:id="@+id/stoneHatchetFragment"
+        android:name="com.example.rustlab.StoneHatchetFragment"
+        android:label="fragment_stone_hatchet"
+        tools:layout="@layout/fragment_stone_hatchet" />
+    <fragment
+        android:id="@+id/stonePickAxeFragment"
+        android:name="com.example.rustlab.StonePickAxeFragment"
+        android:label="fragment_stone_pick_axe"
+        tools:layout="@layout/fragment_stone_pick_axe" />
+    <fragment
+        android:id="@+id/torchFragment"
+        android:name="com.example.rustlab.TorchFragment"
+        android:label="fragment_torch"
+        tools:layout="@layout/fragment_torch" />
+    <fragment
+        android:id="@+id/pantsFragment"
+        android:name="com.example.rustlab.PantsFragment"
+        android:label="fragment_pants"
+        tools:layout="@layout/fragment_pants" />
+    <fragment
+        android:id="@+id/HQFragment"
+        android:name="com.example.rustlab.HQFragment"
+        android:label="fragment_h_q"
+        tools:layout="@layout/fragment_h_q" />
+    <fragment
+        android:id="@+id/HQDoorFragment"
+        android:name="com.example.rustlab.HQDoorFragment"
+        android:label="fragment_h_q_door"
+        tools:layout="@layout/fragment_h_q_door" />
+    <fragment
+        android:id="@+id/metalFragment"
+        android:name="com.example.rustlab.metalFragment"
+        android:label="fragment_metal"
+        tools:layout="@layout/fragment_metal" />
+    <fragment
+        android:id="@+id/metalDoorFragment"
+        android:name="com.example.rustlab.metalDoorFragment"
+        android:label="fragment_metal_door"
+        tools:layout="@layout/fragment_metal_door" />
+    <fragment
+        android:id="@+id/stoneFragment"
+        android:name="com.example.rustlab.stoneFragment"
+        android:label="fragment_stone"
+        tools:layout="@layout/fragment_stone" />
+    <fragment
+        android:id="@+id/woodFragment"
+        android:name="com.example.rustlab.woodFragment"
+        android:label="fragment_wood"
+        tools:layout="@layout/fragment_wood" />
+    <fragment
+        android:id="@+id/woodDoorFragment"
+        android:name="com.example.rustlab.woodDoorFragment"
+        android:label="fragment_wood_door"
+        tools:layout="@layout/fragment_wood_door" />
+</navigation>

@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#151d1c"
+    tools:context=".AmmunitionFragment">
+
+        <TextView
+            android:id="@+id/textView0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="50dp"
+            android:text="@string/btn_ammunition"
+            android:textAlignment="center"
+            android:textColor="#6ea354"
+            android:textSize="35sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.46"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="35dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="#2f3228"
+            app:layout_constraintTop_toBottomOf="@+id/textView0">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView22"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+                        android:contentDescription="@string/img"
+                        android:src="@drawable/explosion_icon" />
+
+                    <ImageView
+                        android:id="@+id/image_satchel"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+                        android:contentDescription="@string/img"
+                        android:src="@drawable/satchel_icon" />
+
+                    <ImageView
+                        android:id="@+id/image_expo"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginEnd="5dp"
+                        android:background="#21241c"
+                        android:contentDescription="@string/img"
+                        android:src="@drawable/explosive_5_56_rifle_ammo_icon" />
+
+                    <ImageView
+                        android:id="@+id/image_rocket"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+                        android:contentDescription="@string/img"
+                        android:src="@drawable/rocket_icon" />
+
+                    <ImageView
+                        android:id="@+id/image_c4"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+
+                        android:contentDescription="@string/img"
+                        android:src="@drawable/timed_explosive_charge_icon" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/image_wood"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+                        android:contentDescription="@string/img"
+                        android:src="@drawable/wood_tier_icon" />
+
+                    <TextView
+                        android:id="@+id/textView66"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+                        android:gravity="center"
+                        android:text="@string/_3"
+                        android:textAlignment="center"
+                        android:textColor="#6ea354"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/textView67"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+                        android:gravity="center"
+                        android:text="@string/_49"
+                        android:textAlignment="center"
+                        android:textColor="#6ea354"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/textView68"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+                        android:gravity="center"
+                        android:text="@string/_2"
+                        android:textAlignment="center"
+                        android:textColor="#6ea354"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/textView69"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+                        android:gravity="center"
+                        android:text="@string/_1"
+                        android:textAlignment="center"
+                        android:textColor="#6ea354"
+                        android:textSize="36sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/image_stone"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+                        android:contentDescription="@string/img"
+                        android:src="@drawable/stone_tier_icon" />
+
+                    <TextView
+                        android:id="@+id/textView70"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+                        android:gravity="center"
+                        android:text="@string/_4"
+                        android:textAlignment="center"
+                        android:textColor="#6ea354"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/textView71"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+                        android:gravity="center"
+                        android:text="@string/_185"
+                        android:textAlignment="center"
+                        android:textColor="#6ea354"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/textView72"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+                        android:gravity="center"
+                        android:text="@string/_4"
+                        android:textAlignment="center"
+                        android:textColor="#6ea354"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/textView73"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+                        android:gravity="center"
+                        android:text="@string/_2"
+                        android:textAlignment="center"
+                        android:textColor="#6ea354"
+                        android:textSize="36sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/image_metal"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+                        android:contentDescription="@string/img"
+                        android:src="@drawable/sheet_metal_tier_icon" />
+
+                    <TextView
+                        android:id="@+id/textView74"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+                        android:gravity="center"
+                        android:text="@string/_23"
+                        android:textAlignment="center"
+                        android:textColor="#6ea354"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/textView75"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+                        android:gravity="center"
+                        android:text="@string/_400"
+                        android:textAlignment="center"
+                        android:textColor="#6ea354"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/textView76"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+                        android:gravity="center"
+                        android:text="@string/_8"
+                        android:textAlignment="center"
+                        android:textColor="#6ea354"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/textView77"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+                        android:gravity="center"
+                        android:text="@string/_4"
+                        android:textAlignment="center"
+                        android:textColor="#6ea354"
+                        android:textSize="36sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/image_HQmetal"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+                        android:contentDescription="@string/img"
+                        android:src="@drawable/armored_tier_icon" />
+
+                    <TextView
+                        android:id="@+id/textView78"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+                        android:gravity="center"
+                        android:text="@string/_46"
+                        android:textAlignment="center"
+                        android:textColor="#6ea354"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/textView79"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+                        android:gravity="center"
+                        android:text="@string/_799"
+                        android:textAlignment="center"
+                        android:textColor="#6ea354"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/textView80"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+                        android:gravity="center"
+                        android:text="@string/_15"
+                        android:textAlignment="center"
+                        android:textColor="#6ea354"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/textView81"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+                        android:gravity="center"
+                        android:text="@string/_8"
+                        android:textAlignment="center"
+                        android:textColor="#6ea354"
+                        android:textSize="36sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/image_woodDoor"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+                        android:contentDescription="@string/img"
+                        android:src="@drawable/wooden_door_icon" />
+
+                    <TextView
+                        android:id="@+id/textView82"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+                        android:gravity="center"
+                        android:text="@string/_2"
+                        android:textAlignment="center"
+                        android:textColor="#6ea354"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/textView83"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+                        android:gravity="center"
+                        android:text="@string/_19"
+                        android:textAlignment="center"
+                        android:textColor="#6ea354"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/textView84"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+                        android:gravity="center"
+                        android:text="@string/_1"
+                        android:textAlignment="center"
+                        android:textColor="#6ea354"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/textView85"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+                        android:gravity="center"
+                        android:text="@string/_1"
+                        android:textAlignment="center"
+                        android:textColor="#6ea354"
+                        android:textSize="36sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/image_metalDoor"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+                        android:contentDescription="@string/img"
+                        android:src="@drawable/sheet_metal_door_icon" />
+
+                    <TextView
+                        android:id="@+id/textView86"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+                        android:gravity="center"
+                        android:text="@string/_4"
+                        android:textAlignment="center"
+                        android:textColor="#6ea354"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/textView87"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+                        android:gravity="center"
+                        android:text="@string/_63"
+                        android:textAlignment="center"
+                        android:textColor="#6ea354"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/textView88"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+                        android:gravity="center"
+                        android:text="@string/_2"
+                        android:textAlignment="center"
+                        android:textColor="#6ea354"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/textView89"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+                        android:gravity="center"
+                        android:text="@string/_1"
+                        android:textAlignment="center"
+                        android:textColor="#6ea354"
+                        android:textSize="36sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/image_HQDoor"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+                        android:contentDescription="@string/img"
+                        android:src="@drawable/armored_door_icon" />
+
+                    <TextView
+                        android:id="@+id/textView90"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+                        android:gravity="center"
+                        android:text="@string/_12"
+                        android:textAlignment="center"
+                        android:textColor="#6ea354"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/textView91"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+                        android:gravity="center"
+                        android:text="@string/_200"
+                        android:textAlignment="center"
+                        android:textColor="#6ea354"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/textView92"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+                        android:gravity="center"
+                        android:text="@string/_4"
+                        android:textAlignment="center"
+                        android:textColor="#6ea354"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/textView93"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:background="#21241c"
+                        android:gravity="center"
+                        android:text="@string/_2"
+                        android:textAlignment="center"
+                        android:textColor="#6ea354"
+                        android:textSize="36sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

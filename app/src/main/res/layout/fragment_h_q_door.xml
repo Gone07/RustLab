@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#151d1c"
+    android:layout_height="match_parent"
+    tools:context=".HQDoorFragment">
+
+    <TextView
+        android:id="@+id/textView109"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:background="#21241c"
+        android:gravity="center"
+        android:text="@string/_800"
+        android:textAlignment="center"
+        android:textColor="#6ea354"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView0"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/textView106"
+        app:layout_constraintTop_toBottomOf="@+id/textView108" />
+
+    <TextView
+        android:id="@+id/textView108"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="50dp"
+        android:background="#21241c"
+        android:text="@string/hp"
+        android:textAlignment="center"
+        android:textColor="#6ea354"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView107" />
+
+    <TextView
+        android:id="@+id/textView106"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/decay"
+        android:textAlignment="center"
+        android:textColor="#6ea354"
+        android:background="#21241c"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView105" />
+
+    <TextView
+        android:id="@+id/textView0"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="50dp"
+        android:background="#21241c"
+        android:text="@string/upkeep"
+        android:textAlignment="center"
+        android:textColor="#6ea354"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#21241c"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/metal_refined"
+        app:layout_constraintStart_toStartOf="@+id/textView0"
+        app:layout_constraintTop_toBottomOf="@+id/textView0" />
+
+    <TextView
+        android:id="@+id/textView105"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:background="#21241c"
+        android:gravity="center"
+        android:text="@string/_2_7"
+        android:textAlignment="center"
+        android:textColor="#6ea354"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView0"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView0" />
+
+    <TextView
+        android:id="@+id/textView107"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:background="#21241c"
+        android:gravity="center"
+        android:text="@string/_12_hours"
+        android:textAlignment="center"
+        android:textColor="#6ea354"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView0"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView106"
+        app:layout_constraintTop_toBottomOf="@+id/textView106" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
